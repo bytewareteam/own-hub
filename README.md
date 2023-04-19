@@ -13,28 +13,28 @@ Some of the features that OwnHub provides.
 Status: ⌛ = In development | ✅ = Done | ❌ = Not planned
 
 | Feature       | Description                    | Status |
-|---------------|--------------------------------|--------|
-| Projects      | Manage your projects           | ⌛      |
-| Epics         | Manage your epics              | ⌛      |
-| User Stories  | Manage your user stories       | ⌛      |
-| Tasks         | Manage your tasks              | ⌛      |
-| Issues        | Manage your issues             | ⌛      |
-| Comments      | Comment on issues              | ⌛      |
-| Labels        | Label issues                   | ⌛      |
-| Milestones    | Manage your milestones         | ⌛      |
-| Assignees     | Assign issues to users         | ⌛      |
-| Attachments   | Attach files to issues         | ⌛      |
-| Notifications | Receive notifications          | ⌛      |
-| Webhooks      | Receive webhooks               | ⌛      |
-| Markdown      | Write issues in Markdown       | ⌛      |
-| Markdown      | Write comments in Markdown     | ⌛      |
-| Markdown      | Write tasks in Markdown        | ⌛      |
-| Markdown      | Write user stories in Markdown | ⌛      |
-| Markdown      | Write epics in Markdown        | ⌛      |
-| Markdown      | Write projects in Markdown     | ⌛      |
-| Markdown      | Write milestones in Markdown   | ⌛      |
-| Webhooks      | Send webhooks                  | ⌛      |
-| API           | Use the API                    | ⌛      |
+| ------------- | ------------------------------ | ------ |
+| Projects      | Manage your projects           | ⌛     |
+| Epics         | Manage your epics              | ⌛     |
+| User Stories  | Manage your user stories       | ⌛     |
+| Tasks         | Manage your tasks              | ⌛     |
+| Issues        | Manage your issues             | ⌛     |
+| Comments      | Comment on issues              | ⌛     |
+| Labels        | Label issues                   | ⌛     |
+| Milestones    | Manage your milestones         | ⌛     |
+| Assignees     | Assign issues to users         | ⌛     |
+| Attachments   | Attach files to issues         | ⌛     |
+| Notifications | Receive notifications          | ⌛     |
+| Webhooks      | Receive webhooks               | ⌛     |
+| Markdown      | Write issues in Markdown       | ⌛     |
+| Markdown      | Write comments in Markdown     | ⌛     |
+| Markdown      | Write tasks in Markdown        | ⌛     |
+| Markdown      | Write user stories in Markdown | ⌛     |
+| Markdown      | Write epics in Markdown        | ⌛     |
+| Markdown      | Write projects in Markdown     | ⌛     |
+| Markdown      | Write milestones in Markdown   | ⌛     |
+| Webhooks      | Send webhooks                  | ⌛     |
+| API           | Use the API                    | ⌛     |
 
 ## Screenshots
 
@@ -67,4 +67,3 @@ issue tracker. All security vulnerabilities will be promptly addressed.
 
 - [Willian Monoga](https://github.com/bytewareteam)
 - [Albert Monoga](https://github.com/albertmonoga)
-
