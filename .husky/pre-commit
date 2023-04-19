@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+npx nx format:write --uncommitted --silent
+npx nx affected:lint --uncommitted --fix --silent
+npx nx affected:test --uncommitted --silent
