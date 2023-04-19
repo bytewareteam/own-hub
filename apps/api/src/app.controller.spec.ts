@@ -1,7 +1,7 @@
-import { AppController } from "./app.controller";
-import { Test, TestingModule } from "@nestjs/testing";
+import { AppController } from './app.controller';
+import { Test, TestingModule } from '@nestjs/testing';
 
-describe("AppController", () => {
+describe('AppController', () => {
   let appController: AppController;
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
@@ -10,11 +10,11 @@ describe("AppController", () => {
     appController = module.get<AppController>(AppController);
   });
 
-  it("should be defined", () => {
+  it('should be defined', () => {
     expect(appController).toBeDefined();
   });
 
-  it("sayHello", () => {
-    expect(appController.sayHello()).toEqual({ message: "Hello World!" });
+  it('sayHello', () => {
+    expect(appController.sayHello()).toEqual({ message: 'Hello World!' });
   });
 });
