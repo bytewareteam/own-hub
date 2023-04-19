@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 import viteTsConfigPaths from 'vite-tsconfig-paths';
 
 export default defineConfig({
-  cacheDir: '../../node_modules/.vite/web',
+  cacheDir: '../../node_modules/.vite/web-app-web-app',
 
   server: {
     port: 4200,
@@ -23,6 +23,15 @@ export default defineConfig({
     }),
   ],
 
+  // Uncomment this if you are using workers.
+  // worker: {
+  //  plugins: [
+  //    viteTsConfigPaths({
+  //      root: '../../',
+  //    }),
+  //  ],
+  // },
+
   define: {
     'import.meta.vitest': undefined,
   },
@@ -34,6 +43,5 @@ export default defineConfig({
     environment: 'jsdom',
     include: ['src/**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
     includeSource: ['src/**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
-    setupFiles: ['./test/setup.ts'],
   },
 });
