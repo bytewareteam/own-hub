@@ -3,9 +3,11 @@ import { useAuth0 } from '@auth0/auth0-react';
 export default function Profile(): JSX.Element {
   const { user, isAuthenticated, isLoading } = useAuth0();
 
-  return isLoading ? <div>Loading ...</div> :(
+  return isLoading ? (
+    <div>Loading ...</div>
+  ) : (
     <>
-      { isAuthenticated && (
+      {isAuthenticated && (
         <nav>
           <article>
             <img src={user?.picture} alt={user?.name} />
