@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+npx nx format:check --all
+npx nx affected:lint --all --fix
+npx nx affected:test --all
+npx nx affected:build --all
