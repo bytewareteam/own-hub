@@ -5,5 +5,5 @@ import { useAuth } from '../context';
 export function LoginButton() {
   const { login } = useAuth();
 
-  return <button onClick={login}>Log In</button>;
+  return <button onClick={login}>LogIn</button>;
 }

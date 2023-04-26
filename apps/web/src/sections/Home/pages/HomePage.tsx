@@ -11,7 +11,7 @@ export function HomePage() {
       </nav>
       <h1>
         <span> Hello there, </span>
-        Welcome OwnHub 👋
+        Welcome to OwnHub 👋
       </h1>
     </div>
   );

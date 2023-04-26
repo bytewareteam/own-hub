@@ -4,7 +4,7 @@ import { useAuth } from '../context';
 
 export function LogoutButton() {
   const { logout } = useAuth();
-  return <button onClick={logout}>Sign out</button>;
+  return <button onClick={logout}>Logout</button>;
 }
 
 export default LogoutButton;
